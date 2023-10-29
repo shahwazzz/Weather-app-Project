@@ -106,3 +106,21 @@ body {
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width: 450px) {
+    .card{
+        min-width: 350px;
+    }
+   .search input{
+    width: 50%;
+    min-width: 190px;
+    
+   }
+
+   .details .col{
+    margin-right: 40px;
+    margin-left: -10px;
+   }
+    
+}
+    
